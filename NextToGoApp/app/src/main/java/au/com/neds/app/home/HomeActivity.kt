@@ -1,4 +1,4 @@
-package au.com.neds.app
+package au.com.neds.app.home
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import au.com.neds.app.ui.theme.NextToGoAppTheme
 
-class MainActivity : ComponentActivity() {
+class HomeActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
