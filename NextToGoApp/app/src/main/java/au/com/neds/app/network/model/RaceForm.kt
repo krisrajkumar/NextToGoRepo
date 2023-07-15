@@ -13,7 +13,7 @@ data class RaceForm(
     @SerializedName("track_condition_id") var trackConditionId: String? = null,
     val weather: Weather? = null,
     @SerializedName("weather_id")
-    val weatherId: Int? = null,
+    val weatherId: String? = null,
     @SerializedName("race_comment") var raceComment: String? = null,
     @SerializedName("additional_data") var additionalData: String? = null,
     @SerializedName("generated") var generated: Int? = null,
