@@ -3,7 +3,7 @@ package au.com.neds.app.network.model
 import com.google.gson.annotations.SerializedName
 
 /**
- * Model class for the RaceResponse.
+ * Model class for the Race Response.
  */
 data class RaceResponse(
     @SerializedName("status") var status: Int? = null,

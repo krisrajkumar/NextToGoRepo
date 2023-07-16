@@ -4,7 +4,7 @@ import au.com.neds.app.network.APIService
 import javax.inject.Inject
 
 /**
- * Retrieves the data from remote server.
+ * Retrieves the race data's from remote server.
  */
 class RemoteDataSource @Inject constructor(private val apiService: APIService) {
     suspend fun getRaceEvents(method: String, count: Int) =
