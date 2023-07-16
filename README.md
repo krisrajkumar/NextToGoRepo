@@ -9,6 +9,7 @@ Components Used:
 5. Timber
 6. Dagger
 7. Coroutines
+8. Material Design
 
 Screenshots:
 ------------
