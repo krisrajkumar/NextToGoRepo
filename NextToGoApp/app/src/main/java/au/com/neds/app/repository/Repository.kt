@@ -11,10 +11,14 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
+/**
+ * Repository class which holds the references to the RemoteDatasource.
+ */
 @ActivityRetainedScoped
 class Repository @Inject constructor(private val dataSource: RemoteDataSource) : BaseApiResponse() {
     suspend fun getRaces(method: String, count: Int): Flow<NetworkResult<RaceResponse>> {
         return flow<NetworkResult<RaceResponse>> {
+            emit(NetworkResult.Loading())
             emit(safeApiCall { dataSource.getRaceEvents(method, count) })
         }.flowOn(Dispatchers.IO)
     }

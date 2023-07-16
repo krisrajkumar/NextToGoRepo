@@ -12,7 +12,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 /**
- * Network Module for Retrofit with @Ok.
+ * Network Module for Retrofit with OKHTTPLoggingInterceptor.
  */
 @Module
 @InstallIn(SingletonComponent::class)

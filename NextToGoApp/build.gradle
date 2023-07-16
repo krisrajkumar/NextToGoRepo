@@ -12,6 +12,7 @@ ext{
     compose_bom_version = "2022.10.00"
     lifecycle_version = "1.10.1"
     compose_version = "1.7.2"
+    lottie_version = "6.0.1"
     hilt_version = "2.44"
     coroutines_version = "1.6.4"
     junit_version = "4.13.2"
