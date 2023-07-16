@@ -4,14 +4,15 @@ Components Used:
 ----------------
 1. Jetpack Compose
 2. Material Design
-3. ViewModel
-4. Flow
-5. Retrofit
-6. Lottie
-7. Timber
-8. Dagger
-9. Coroutines
-10. Material Design
+3. Livedata
+4. ViewModel
+5. Flow
+6. Retrofit
+7. Lottie
+8. Timber
+9. Dagger
+10. Coroutines
+11. Material Design
 
 Screenshots:
 ------------
